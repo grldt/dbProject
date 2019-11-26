@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".RegisterActivity"
     android:gravity="center"
     android:orientation="vertical"
     android:background="#515151">
@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
         android:textSize="40dp"
         android:paddingBottom="100dp"
         android:textColor="#FFFFFF"/>
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:hint="Username"
             android:textColorHint="#aaaaaa"
-            android:id="@+id/usernameLogin"/>
+            android:id="@+id/usernameRegis"/>
 
     </LinearLayout>
 
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:hint="Password"
             android:textColorHint="#aaaaaa"
-            android:id="@+id/passwordLogin"/>
+            android:id="@+id/passwordRegis"/>
 
     </LinearLayout>
 
@@ -67,28 +67,22 @@
         android:layout_height="wrap_content"
         android:paddingBottom="20dp">
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Remember Me"
-            android:textColor="#FFFFFF"/>
-
     </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Register"
         android:textColor="#FFFFFF"
         android:background="#414141"
-        android:id="@+id/btnLogin"/>
+        android:id="@+id/btnRegis"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't have an account yet? Register Here"
+        android:text="Already have an account? Login Here"
         android:paddingTop="30dp"
         android:textColor="#FFFFFF"
-        android:id="@+id/linkRegis"/>
+        android:id="@+id/linkLogin"/>
 
 </LinearLayout>
